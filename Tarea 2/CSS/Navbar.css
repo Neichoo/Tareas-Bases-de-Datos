@@ -1,0 +1,50 @@
+/* Reset de estilos para quitar márgenes y paddings */
+* {
+    font-family: 'Lora', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+/* Color de fondo - Espacio interno */
+nav {
+    background-color: #2b3b4e;
+    padding: 45px 0;
+}
+
+/* Sacar los puntos de la lista - Centrar los elementos*/
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline; /* Para que los elementos estén en línea */
+}
+
+/* Color del texto - Sacar subrayado de los links - Espacio interno */
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 30px 20px;
+    font-size: x-large;
+}
+/* Color de fondo al pasar el cursor por encima */
+nav ul li a:hover {
+    background-color: #da5103; 
+    padding: 35px 35px;
+    padding-top: 70px;
+}
+.IconoHotel {
+    position: absolute;
+    top: 5px; /* Ajusta el valor según sea necesario */
+    left: 10px; /* Ajusta el valor según sea necesario */
+    width: 100px; /* Ajusta el ancho según sea necesario */
+    height: auto; /* Para mantener la proporción */
+}
+.nombreHotel {
+    color: #fff; /* Color del texto */
+    font-size: 1.2em; /* Tamaño del texto */
+    margin-left: 120px; /* Espacio a la izquierda del nombre */
+    vertical-align: middle; /* Alineación vertical */
+}

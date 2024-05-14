@@ -1,0 +1,27 @@
+.contenedorImagen {
+    background-image: url('../IMG/HotelMarco.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    position: relative;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    right: -20px;
+    bottom: -20px;
+    background-image: url('../IMG/Hotel.jpg');
+    background-size: cover;
+    background-repeat: repeat-y;
+    filter: blur(20px);
+    z-index: -1;
+}
+
+.contenido {
+    position: relative; 
+    z-index: 1;
+}

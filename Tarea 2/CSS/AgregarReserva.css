@@ -1,0 +1,96 @@
+.Form {
+    font-family: 'Lora', serif;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.Form h2 {
+    text-align: center;
+}
+
+.Form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.Form input[type="text"],
+.Form input[type="number"],
+.Form input[type="date"] {
+    font-family: 'Lora', serif;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+select{
+    padding: 10px;
+}
+
+.Form input[type="submit"] {
+    padding-top: 10px;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.Form input[type="submit"]:hover {
+    background-color: #2a6b2d;
+}
+
+.exito {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #dff0d8;
+    border: 1px solid #d0e9c6;
+    color: #3c763d;
+}
+
+.error {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+}
+
+.FormB {
+    font-family: 'Lora', serif;
+    width: 50%;
+    margin: auto;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    background-color: #f9f9f9;
+}
+.FormB h2 {
+    text-align: center;
+}
+.FormB label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.FormB input[type="number"] {
+    font-family: 'Lora', serif;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}

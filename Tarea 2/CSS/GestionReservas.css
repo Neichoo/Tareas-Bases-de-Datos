@@ -1,0 +1,41 @@
+h1 {
+    font-family: 'Lora', serif;
+    margin-top: 20px;
+    text-align: center; /* Centrar el texto horizontalmente */
+}
+
+h2 {
+    font-family: 'Lora', serif;
+    margin-top: 20px;
+    text-align: center; /* Centrar el texto horizontalmente */
+}
+
+button {
+    font-family: 'Lora', serif;
+    padding: 20px 40px;
+    font-size: 16px;
+    margin: 10px auto; /* Centrar el botón horizontalmente */
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    display: block; /* Para que los botones ocupen todo el ancho disponible */
+    width: 300px; /* Ancho fijo para todos los botones */
+}
+
+.agregar {
+    font-family: 'Lora', serif;
+    background-color: #0a9c0f; /* Verde */
+    color: white;
+}
+
+.editar {
+    font-family: 'Lora', serif;
+    background-color: #b89d08; /* Amarillo */
+    color: white;
+}
+
+.eliminar {
+    font-family: 'Lora', serif;
+    background-color: #af2007; /* Rojo */
+    color: white;
+}
