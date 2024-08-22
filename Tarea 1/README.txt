@@ -1,6 +1,6 @@
-Nombre/Rol:
-Ignacio Gómez G/202273553-8
-Sebastián Muñoz G/202273534-1
+Nombre:
+Ignacio Gómez G
+Sebastián Muñoz G
 
 Instrucciones:
 · Importar la base de datos.
